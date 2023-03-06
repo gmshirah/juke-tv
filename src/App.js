@@ -1,8 +1,18 @@
 import { Grommet } from 'grommet';
 
+const theme = {
+  global: {
+    font: {
+      family: "Roboto",
+      size: "16px",
+      height: "18px",
+    },
+  },
+};
+
 function App() {
   return (
-    <Grommet full>
+    <Grommet theme={theme} full>
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
